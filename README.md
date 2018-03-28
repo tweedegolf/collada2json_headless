@@ -24,6 +24,6 @@ The last command starts a local webserver at http://localhost:8000.
 
 All npm scripts:
 
- - npm start -> starts a local webserver at http://localhost:8000
- - npm run watch -> compiles es2015 code to javascript as soon as you have changed code
- - npm run build -> compiles and minifies the code and creates a source map
+ - npm start &rarr; starts a local webserver at http://localhost:8000
+ - npm run watch &rarr; compiles es2015 code to javascript as soon as you have changed code
+ - npm run build &rarr; compiles and minifies the code and creates a source map
