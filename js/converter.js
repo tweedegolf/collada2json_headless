@@ -75,6 +75,7 @@ const parseCollada = (i) => {
 
     setTimeout(() => {
       let json = model.toJSON();
+      // overwrite the images array with the actual image urls instead of the data URI's
       json.images = images;
       saveAs(`${colladaName}.json`, JSON.stringify(json));
 

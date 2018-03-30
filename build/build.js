@@ -138,6 +138,7 @@ var parseCollada = function parseCollada(i) {
 
     setTimeout(function () {
       var json = model.toJSON();
+      // overwrite the images array with the actual image urls instead of the data URI's
       json.images = images;
       (0, _save_as2.default)(colladaName + '.json', JSON.stringify(json));
 
